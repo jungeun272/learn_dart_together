@@ -16,7 +16,7 @@ final _privateConstructorUsedError = UnsupportedError(
 
 /// @nodoc
 mixin _$Photo {
-  String get tags => throw _privateConstructorUsedError; //네임드 스트럭쳐임
+  String get tags => throw _privateConstructorUsedError; //네임드파라미터
   String get imageUrl => throw _privateConstructorUsedError;
 
   @JsonKey(ignore: true)
@@ -104,7 +104,7 @@ class _$PhotoImpl implements _Photo {
 
   @override
   final String tags;
-//네임드 스트럭쳐임
+//네임드파라미터
   @override
   final String imageUrl;
 
@@ -140,7 +140,7 @@ abstract class _Photo implements Photo {
 
   @override
   String get tags;
-  @override //네임드 스트럭쳐임
+  @override //네임드파라미터
   String get imageUrl;
   @override
   @JsonKey(ignore: true)

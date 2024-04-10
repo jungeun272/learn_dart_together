@@ -6,7 +6,7 @@ import 'package:learn_dart_together/240327/model/mask.dart';
 extension MaskDtotoMask on MaskDto {
   //count는 int 나 double임 마스크디티오의 필드니까
   //ListStoreDto 는 List<Stores>
-  //mapping은 객테에서 저 객체로 바꿔준다 ( 배 -> 사과 )
+  //mapping은 객체에서 저 객체로 바꿔준다 ( 배 -> 사과 )
   //
   Mask toMask() {
     return Mask(
